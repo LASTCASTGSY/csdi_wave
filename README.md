@@ -8,12 +8,12 @@ The model achieves low error rates across all features, demonstrating high accur
 | **RMSE** | **0.065** | Root Mean Square Error (lower is better) |
 | **MAE** | **0.042** | Mean Absolute Error (lower is better) |
 | **CRPS** | **0.034** | Continuous Ranked Probability Score (captures uncertainty) |
-An RMSE of 0.065 m indicates that reconstructed wave heights are typically within 6.5 cm of the true values, significantly outperforming simple interpolation-based baselines.
 
 ### Visual Demonstration
 The plot below demonstrates the model's ability to capture complex non-linear patterns.
 * **Green Line:** The model's reconstruction.
 * **Shaded Area:** The 90% confidence interval (uncertainty).
 * **Blue Dots:** The ground truth targets the model successfully recovered.
+* An RMSE of 0.065 m indicates that reconstructed wave heights are typically within 6.5 cm of the true values, significantly outperforming simple interpolation-based baselines.
   
 <img width="1800" height="1200" alt="forecast_plot_sample5" src="https://github.com/user-attachments/assets/306bcf8a-5b1b-47d3-aa9f-ae205ba4cbee" />
