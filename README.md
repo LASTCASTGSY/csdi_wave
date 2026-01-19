@@ -15,3 +15,4 @@ The plot below demonstrates the model's ability to capture complex non-linear pa
 * **Shaded Area:** The 90% confidence interval (uncertainty).
 * **Blue Dots:** The ground truth targets the model successfully recovered.
   
+<img width="1800" height="1200" alt="forecast_plot_sample5" src="https://github.com/user-attachments/assets/306bcf8a-5b1b-47d3-aa9f-ae205ba4cbee" />
